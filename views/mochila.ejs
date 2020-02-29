@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+
+<head>
+    <meta charset="utf-8">
+
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="/styles/login.css">
+    <link rel="stylesheet" href="/styles/mochila.css">
+
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Courier+Prime|Lakki+Reddy&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="topo">
+        <img  id="logo" src="imagem/logo_02.png">        
+    </div>
+
+
+    <section name="botoes-tipos-midias">
+		<div class="container-fluid tipos-midias row">
+			<div class="dropdown col-4">
+			<button type="button" class="btn btn-primary btn-lg k7" data-toggle="dropdown">K7</button>
+
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				<a class="dropdown-item" href="#">ROCK</a>
+				<a class="dropdown-item" href="#">POP</a>
+				<a class="dropdown-item" href="#">BLUES</a>
+				<a class="dropdown-item" href="#">JAZZ</a>
+				<a class="dropdown-item" href="#">HIP-HOP</a>
+			  </div>
+			</div>
+
+			<div class="dropdown col-4">
+			<button type="button" class="btn btn-primary btn-lg cd" data-toggle="dropdown">CD</button>
+
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				<a class="dropdown-item" href="#">ROCK</a>
+				<a class="dropdown-item" href="#">POP</a>
+				<a class="dropdown-item" href="#">BLUES</a>
+				<a class="dropdown-item" href="#">JAZZ</a>
+				<a class="dropdown-item" href="#">HIP-HOP</a>
+			  </div>
+			</div>
+
+			<div class="dropdown col-4">
+			<button type="button" class="btn btn-primary btn-lg vinil" data-toggle="dropdown">VINIL</button>
+
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				<a class="dropdown-item" href="#">ROCK</a>
+				<a class="dropdown-item" href="#">POP</a>
+				<a class="dropdown-item" href="#">BLUES</a>
+				<a class="dropdown-item" href="#">JAZZ</a>
+				<a class="dropdown-item" href="#">HIP-HOP</a>
+			  </div>
+			</div>
+		</div>
+		
+		</section>
+            
+        <section name="titulo">
+        <div class="titulo container">
+            <img class="mochila" src="/imagem/mochila01.png">
+            <h1>MOCHILA DE COMPRAS</h1>
+
+        </div>
+
+        </section>
+
+        <section name="lista de itens">
+
+     <% for(var i= 0; i<= 2; i+=1){ %>
+        <div class="lista row">
+            <div class="col-4">
+                <img class="capa" src="/imagem/epica.jpg">
+            </div>
+
+            <div class="col-6">
+                <label class="label-produto">THE HOLOGRAPHIC PRINCIPLE</label></br>
+                <label class="label-produto">VALOR: R$ 99,99</label></br>
+                <label class="label-produto">QTD: 01</label></br>
+                <button type="button" class="btn btn-warning">REMOVER</button>
+            </div>
+        </div>
+   <% } %>
+        </section>
+    </div>
+
+    <section name="total">
+    <div class="total">
+        <label>TOTAL DE PRODUTOS R$ 99,99</label></br>
+        <label>FRETE R$ 99,99</label></br>
+        <label>VALOR TOTAL: R$ 99,99</label></br>
+        <button type="button" class="btn btn-success">CONFIRMAR COMPRA</button>
+    </div>
+
+
+
+    </section>
+
+</body>

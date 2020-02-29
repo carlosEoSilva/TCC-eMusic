@@ -1,0 +1,70 @@
+img{
+    border: solid 3px;
+    border-color:black;
+}
+
+body{
+	background-color: #3282b8;
+}
+
+form{
+    padding: 5% 20% 3% 20%;
+    background-color: #00a8cc;
+}
+
+h3{
+    padding-left:0%;
+    padding-bottom: 2%;
+    text-align: left;
+    font-family: 'Lilita One', cursive;
+}
+
+h4{
+    font-family: 'Lilita One', cursive;
+    font-size:2rem;
+}
+
+label{
+    font-size:1.2rem;
+}
+
+select{
+    padding-left:0%;
+}
+
+
+
+.topo{
+    text-align: center;
+    padding:4%;
+}
+
+.vencimento{
+    margin-right: 5%;
+}
+
+.form-group{
+    padding-left: 0px;
+}
+
+.btn-success{
+    margin:5% 0 20% 0;
+}
+
+.formBoleto{
+    padding-top:0%;
+}
+
+.container-fluid{
+    text-align:center;
+}
+
+#bandeira{
+    width: 50%;
+    margin-bottom: 3%;
+}
+
+#boleto{
+    width: 25%;
+    margin-bottom:10%;
+}

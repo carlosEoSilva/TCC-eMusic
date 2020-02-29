@@ -1,0 +1,116 @@
+/* --logotipo-- */
+.topo{
+    margin-bottom: 5%;
+}
+/* --end-- */
+
+/* --botoes-tipos-midias-- */
+.btn-lg{
+	width:90%;
+	margin:0 !important;
+	border:solid 2px black;
+}
+
+.k7{
+	background-color: #445c3c !important;
+
+}
+
+.vinil{
+	background-color: #373640 !important;
+}
+
+.tipos-midias{
+	padding:3% 0 5% 0;
+	background-image: linear-gradient(#3282b8, #00204a, #3282b8);
+	margin:0;
+}
+
+.dropdown{
+	margin:0;
+}
+/* --end-- */
+
+/* --titulo-- */
+h1{
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+    font-size: 2rem !important;
+    display: inline-block;
+    
+    
+}
+
+.titulo{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding: 1% 0;
+    
+}
+
+.mochila{
+    height: 5%;
+    width: 5%;
+    margin-bottom: 20px;
+}
+/* --end-- */
+
+/* --lista de itens-- */
+
+label{
+    font-size:150%;
+    color: black;
+}
+
+.label-produto{
+    font-size:150%;
+    color: black;
+}
+
+.capa{
+    height: 90%;
+    width: 90%;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+}
+
+.lista{
+    border: solid 1px;
+    padding-top: 3%;
+    margin-top: 3%;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #65c6c4;
+    background-image: linear-gradient(#65c6c4, #13abc4, #65c6c4);
+    
+}
+
+.btn-warning{
+    border: none !important;
+    color: black !important;
+}
+
+.btn-warning:hover{
+    color:red !important;
+}
+
+/* --end-- */
+
+/* --total-- */
+
+.total{
+    text-align: right;
+    padding-right: 10%;
+    padding-top: 3%;
+}
+
+.btn-success{
+    margin-top: 3% !important;
+}
+
+
+/* --end-- */
+
+

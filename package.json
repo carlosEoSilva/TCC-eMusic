@@ -1,0 +1,29 @@
+{
+  "name": "emusic",
+  "version": "1.0.0",
+  "description": "emusic server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosEoSilva/eMusic.git"
+  },
+  "author": "carlos silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosEoSilva/eMusic/issues"
+  },
+  "homepage": "https://github.com/carlosEoSilva/eMusic#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.2",
+    "nodemon": "^2.0.2",
+    "request": "^2.88.0",
+    "require": "^2.4.20"
+  }
+}

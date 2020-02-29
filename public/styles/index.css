@@ -1,0 +1,216 @@
+body{
+	text-align:center;
+	background-color: #3282b8;
+
+}
+
+/* ----cabeçalho---- */
+
+.textField{
+	border:3px solid;
+}
+
+.topo{
+	margin:0 auto 5% auto;
+	
+}
+
+#container-logo{
+	margin:0px;
+	padding:0;
+}
+
+#entrar{
+	background-color: #00bd56;
+	margin-bottom: 10%;
+}
+
+#logo{
+	height:10rem;
+	width:100%;
+	border: solid 5px;
+	border-color: black;
+}
+
+#btnMochila{
+	width:210px;
+	background-color:#f7be16;
+	margin-bottom: 10%;
+}
+
+#pesquisar{
+	border:3px solid;
+	background-color: #EFC656;
+	
+}
+
+
+#botoesCabecalho{
+	text-align:center;
+	height:10rem;
+	font-family: 'IBM Plex Serif', serif;
+	padding-top:3%;	
+}
+/* ----end---- */
+
+/* ----botões de mídias---- */
+
+.btn-lg{
+	width:90%;
+	margin:0 !important;
+	border:solid 2px black;
+}
+
+.k7{
+	background-color: #445c3c !important;
+
+}
+
+.vinil{
+	background-color: #373640 !important;
+}
+
+.tipos-midias{
+	padding:3% 0 5% 0;
+	background-image: linear-gradient(#3282b8, #00204a, #3282b8);
+	margin:0;
+}
+
+.dropdown{
+	margin:0;
+}
+
+/* --end-- */
+
+/* ----slide---- */
+
+.carousel-inner{
+	padding:0 5% 0 5%;
+	text-align: center;
+	width: 80%;
+	height: 60%; 
+}
+
+.carousel{
+	text-align: center;
+}
+
+.carousel-inner{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+h6{
+	font-family: 'Domine', serif;
+	margin-top:8px;
+}
+
+h1{
+	display:inline-block;
+	font-size:3rem;
+	margin-top:5%;
+}
+
+nav{
+	padding-bottom: 10%;
+}
+
+a{
+	text-decoration:none;
+	text-anchor: unset;
+	color: black;
+}
+
+.midiaIcon{
+	height:90%;
+}
+
+/* --end-- */
+
+/* ----produtos---- */
+.Comprar{
+	background-color: #ed5107;
+	color: black; 
+	font-family: 'Domine', serif;
+	border-radius: 16px;
+	padding:10px;
+	border:1px solid;
+}
+
+.Comprar:hover{
+	background-color:#a0cc78;
+	color:black;
+	
+}
+
+.card-img-top{
+	height:10rem;
+	width:13rem;
+	margin: auto auto 5px auto;
+}
+
+.card{
+	display: inline-block;	
+	padding:0px 0px 5px 0px;
+	border:1px solid;
+	margin:auto 10px 10px 10px;		
+	background-color:#D9D9D9;
+}
+
+.card-body{
+	padding:3px 0px;
+
+}
+
+.btn:hover{
+	color:#040e49;
+}
+
+.btn-success{
+	margin-bottom: 30px;	
+	background-color: #41aaa8;
+}
+
+.lista{
+	display: block;
+}
+
+
+
+.btn-primary{
+	margin: 30px 50px 60px 20px;
+}
+
+.d-block{
+	height:20rem;
+}
+
+.prod{
+	height:400px;
+	margin-top:20px;	
+}
+
+
+
+#produtos{
+	padding:5% 0% 5% 0%;
+}
+
+/* --end-- */
+
+/* ----paginação---- */
+
+#paginacao{
+	text-align:center;
+}
+
+/* --end-- */
+
+/* font-family: 'Gayathri', sans-serif;
+font-family: 'Livvic', sans-serif;
+font-family: 'Domine', serif; */
+
+/* font-family: 'Chilanka', cursive;
+font-family: 'Modak', cursive;
+font-family: 'Righteous', cursive; */

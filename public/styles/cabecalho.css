@@ -1,0 +1,72 @@
+body{
+	text-align:center;
+	background-color: #F69314;
+
+}
+
+.container-fluid{
+	background-color: #e6a400;
+}
+
+.Comprar:hover{
+	background-color:#a0cc78;
+	color:black;
+	
+}
+
+.btn:hover{
+	color:#040e49;
+}
+
+.textField{
+	border:3px solid;
+}
+
+
+.btn{
+	color:white;
+	font-size:100%;
+	margin: 10% 0% 5% 0%;
+	border:3px solid black;	
+}
+
+
+
+#btnMochila{
+	width:210px;
+}
+
+#pesquisar{
+	border:3px solid;
+	background-color: #EFC656;
+	
+}
+
+#col-1{
+	padding:0%;
+	margin-bottom:15px;
+}
+
+#col-2{
+	
+	text-align:center;
+	height:10rem;
+	font-family: 'IBM Plex Serif', serif;	
+}
+
+#logo{
+	height:10rem;
+	width:100%;
+}
+
+
+
+
+
+/* font-family: 'Gayathri', sans-serif;
+font-family: 'Livvic', sans-serif;
+font-family: 'Domine', serif; */
+
+/* font-family: 'Chilanka', cursive;
+font-family: 'Modak', cursive;
+font-family: 'Righteous', cursive; */

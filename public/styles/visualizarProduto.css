@@ -1,0 +1,184 @@
+body{
+	text-align:center;
+	background-color: #3282b8;
+
+}
+
+/* ----cabeçalho---- */
+
+.textField{
+	border:3px solid;
+}
+
+.topo{
+	margin:0 auto 5% auto;
+	padding:0;
+	
+}
+
+#container-logo{
+	margin:0px;
+	padding:0px;
+}
+
+#entrar{
+	background-color: #00bd56;
+	margin-bottom: 10%;
+}
+
+#logo{
+	height:10rem;
+	width:100%;
+	border: solid 5px;
+	border-color: black;
+}
+
+#btnMochila{
+	width:210px;
+	background-color:#f7be16;
+	margin-bottom: 10%;
+}
+
+#pesquisar{
+	border:3px solid;
+	background-color: #EFC656;
+	
+}
+
+
+#botoesCabecalho{
+	text-align:center;
+	height:10rem;
+	font-family: 'IBM Plex Serif', serif;
+	padding-top:3%;	
+}
+/* --end-- */
+
+/* ----botões de mídias---- */
+
+.btn-lg{
+	width:90%;
+	margin:0 !important;
+	border:solid 2px black;
+}
+
+.k7{
+	background-color: #445c3c !important;
+
+}
+
+.vinil{
+	background-color: #373640 !important;
+}
+
+.tipos-midias{
+	padding:3% 0 5% 0;
+	background-image: linear-gradient(#3282b8, #00204a, #3282b8);
+	margin:0;
+}
+
+.dropdown{
+	margin:0;
+}
+
+/* --end-- */
+
+h6{
+	font-family: 'Domine', serif;
+	margin-top:8px;
+}
+
+h5{
+	display:inline-block;
+	font-size:150%;
+	margin-top:5%;
+	
+}
+
+a{
+	text-decoration:none;
+	text-anchor: unset;
+}
+
+.row{
+	margin:0;
+}
+
+.capa{
+	height:45%;
+    
+   
+}
+
+.descricao{
+    display:inline;
+	text-align: left;
+	margin-left:5%;
+
+}
+
+.detalhe{
+    height: auto;
+	width:100%;
+	padding: 10%;
+	background-color: #79bac1;
+
+	
+}
+
+.slideImg{
+	height:21rem;
+	width:100%;
+	border:solid 3px; 
+
+}
+
+.btn-success{
+	margin-top: 19%;
+}
+
+.texto{
+	text-align:justify;
+	padding:3%;
+}
+
+.tracklist{
+	text-align:left;
+}
+
+.col-6{
+	padding-left:15%;
+}
+
+.biografia{
+	margin:5px;
+	border:2px solid;
+	
+}
+
+
+
+#col-1{
+	padding:0%;
+	margin-bottom:15px;
+}
+
+#col-2{
+	background-color: #e6a400;
+	text-align:center;
+	height:10rem;
+	font-family: 'IBM Plex Serif', serif;	
+}
+
+
+
+
+
+
+/* font-family: 'Gayathri', sans-serif;
+font-family: 'Livvic', sans-serif;
+font-family: 'Domine', serif; */
+
+/* font-family: 'Chilanka', cursive;
+font-family: 'Modak', cursive;
+font-family: 'Righteous', cursive; */

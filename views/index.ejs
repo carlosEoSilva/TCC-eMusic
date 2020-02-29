@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--font awesome-->
+	<script src="https://kit.fontawesome.com/b28994db52.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+
+	<!--Google fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Domine|Gayathri|Livvic&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Chilanka|Modak|Righteous&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+	
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	
+	<!--css-->
+	<link rel="stylesheet" href="styles/index.css">
+
+    <title>e-Music</title>
+  </head>
+  
+<body>
+	<section id="cabecalho">
+	<div class="container-fluid topo">
+		<div class="row">
+			<div id="container-logo" class="col-lg-8">
+				<img id="logo" src="imagem/logo_02.png">
+			</div>
+			
+			
+			<div id="botoesCabecalho" class="col-lg-4" >
+				<button type="submit" id="entrar" class="btn"><img class="icon"src="imagem/icons/user.png"><a href="/login">Entrar</a></button>
+				
+				<button  type="submit" id="btnMochila" class="btn"><img class="icon" src="imagem/icons/backpack.png"><a href="/mochila">Mochila de compras</a></button><br>
+				
+				
+				<input class="textField" type="text" name="procurar">
+				
+				<button type="button" id="pesquisar"><i class="fas fa-search"></i>  Pesquisar</button>
+			</div>
+		
+		
+		</div>
+	</div>
+	</section>
+	
+	<section name="botoes-tipos-midias">
+		<div class="container-fluid tipos-midias row">
+			<div class="dropdown col-4">
+			<button type="button" class="btn btn-primary btn-lg k7" data-toggle="dropdown">K7</button>
+
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				<a class="dropdown-item" href="#">ROCK</a>
+				<a class="dropdown-item" href="#">POP</a>
+				<a class="dropdown-item" href="#">BLUES</a>
+				<a class="dropdown-item" href="#">JAZZ</a>
+				<a class="dropdown-item" href="#">HIP-HOP</a>
+			  </div>
+			</div>
+
+			<div class="dropdown col-4">
+			<button type="button" class="btn btn-primary btn-lg cd" data-toggle="dropdown">CD</button>
+
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				<a class="dropdown-item" href="#">ROCK</a>
+				<a class="dropdown-item" href="#">POP</a>
+				<a class="dropdown-item" href="#">BLUES</a>
+				<a class="dropdown-item" href="#">JAZZ</a>
+				<a class="dropdown-item" href="#">HIP-HOP</a>
+			  </div>
+			</div>
+
+			<div class="dropdown col-4">
+			<button type="button" class="btn btn-primary btn-lg vinil" data-toggle="dropdown">VINIL</button>
+
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				<a class="dropdown-item" href="#">ROCK</a>
+				<a class="dropdown-item" href="#">POP</a>
+				<a class="dropdown-item" href="#">BLUES</a>
+				<a class="dropdown-item" href="#">JAZZ</a>
+				<a class="dropdown-item" href="#">HIP-HOP</a>
+			  </div>
+			</div>
+		</div>
+		
+	</section>
+
+	<section id="slide">
+
+	<div class="carousel" data-ride="carousel">
+	  <div class="carousel-inner">
+		  
+		<div class="carousel-item active">
+		  <img style="width: 100%;" src="imagem/alissa.jpg" class="slideImg d-block ">
+		</div>
+
+		<div class="carousel-item">
+		  <img src="imagem/promocao02.png" class="slideImg d-block w-100">
+		</div>
+
+		<div class="carousel-item">
+		  <img src="imagem/promocao01.png" class="slideImg d-block w-100">
+		</div>
+
+	  </div>
+	  <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	  </a>
+	  <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	  </a>
+	</div>
+
+	</section>
+    
+    <section id="produtos">
+
+	<div class="lista">
+
+		<% for(var i= 0; i<= 14; i+= 1){ %>
+	
+		<div class="card">
+			<img class="card-img-top" src="imagem/reanimation.jpg" alt="Imagem de capa do card">
+			<div class="card-body" >
+				<img src="imagem/icons/lp.png">
+				<h6 class="card-text">Linkin Park</h6>
+				<h6>Meteora</h6>
+				<h6>R$50,00</h6>
+				<button type="button" class="btn btn-success"><img class="icon"src=""><a href="/produto">Detalhes</a></button>
+		  	</div>
+		</div>
+
+	<% } %>
+	
+		
+	</section>
+	
+	<section id="paginacao">
+		
+		<nav>
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1">Anterior</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Próximo</a>
+    </li>
+  </ul>
+</nav>
+	
+	
+	</section>
+
+	<div class="container-fluid">
+		<p>Projeto eMusic TCC</p>  
+	</div>
+
+
+
+</body>
+</html>
