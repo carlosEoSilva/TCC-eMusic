@@ -1,0 +1,25 @@
+body{
+    background-color: #3282b8;
+    text-align: center;
+}
+
+h1{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+/*------Botões--------*/
+a{
+   color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.btn{
+    border:2px solid black;
+    margin-right: 3%;
+}
+

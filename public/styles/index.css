@@ -4,6 +4,15 @@ body{
 
 }
 
+a{
+	color: black;
+ }
+ 
+ a:hover{
+	 text-decoration: none;
+	 color: black;
+ }
+ 
 /* ----cabeçalho---- */
 
 .textField{
@@ -129,14 +138,20 @@ a{
 /* --end-- */
 
 /* ----produtos---- */
-.Comprar{
+
+.tipo{
+	font-family: 'Domine', serif;
+}
+
+
+/* .Comprar{ classe não usada
 	background-color: #ed5107;
 	color: black; 
 	font-family: 'Domine', serif;
 	border-radius: 16px;
 	padding:10px;
 	border:1px solid;
-}
+} */
 
 .Comprar:hover{
 	background-color:#a0cc78;

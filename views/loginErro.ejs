@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+
+<head>
+    <meta charset="utf-8">
+
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- css -->
+    <link rel="stylesheet" href="/styles/login.css">
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Courier+Prime|Lakki+Reddy&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="topo">        
+        
+        <img id="radio" src="imagem/radio.png">
+        <h4 style="color: rgb(146, 16, 16);" >Email ou senha inválidos :(</h4>
+    </div>
+
+    <form class="form-signin" method="post" action="/login">
+        
+      
+        <div class="form-label-group">
+          <input name="email" type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+          
+        </div>
+      
+        <div class="form-label-group">
+          <input name="senha" type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+          
+        </div>
+      
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me"> Manter conectado
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-success"><a  name="entrar">Entrar</a></button></br>
+
+        <button type="button" class="btn btn-primary">
+          <a href="/cadastroUsuario">Criar conta</a></button>
+
+      </form>
+
+    
+    
+
+
+
+</body>

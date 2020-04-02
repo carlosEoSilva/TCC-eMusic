@@ -16,20 +16,21 @@
 
 <body>
     <div class="topo">        
-        <h4>Bem - vindo de volta!!!</h4>
+        
         <img id="radio" src="imagem/radio.png">
+        <h4 >Bem-vindo de volta!!!</h4>
     </div>
 
-    <form class="form-signin">
+    <form class="form-signin" method="post" action="/login">
         
       
         <div class="form-label-group">
-          <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+          <input name="email" type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
           
         </div>
       
         <div class="form-label-group">
-          <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+          <input name="senha" type="password" id="inputPassword" class="form-control" placeholder="Password" required>
           
         </div>
       
@@ -39,12 +40,11 @@
           </label>
         </div>
 
-        <button type="button" class="btn btn-success"><a href="">Entrar</a></button></br>
+        <button type="submit" class="btn btn-success"><a  name="entrar">Entrar</a></button></br>
 
         <button type="button" class="btn btn-primary">
-          <a href="/cadastro">Criar conta</a></button>
+          <a href="/cadastroUsuario">Criar conta</a></button>
 
-        <p class="mt-5 mb-3 text-muted text-center">&copy; 2017-2019</p>
       </form>
 
     

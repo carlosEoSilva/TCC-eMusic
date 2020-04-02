@@ -1,0 +1,60 @@
+img{
+    border: solid 10px;
+    border-color:#ffd800;
+}
+
+body{
+	background-color: #6c7b95;
+}
+
+form{
+    padding: 5% 20%;
+    background-color: #6c7b95;
+}
+
+h3{
+    padding:2%;
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+}
+
+textarea{
+    display:block;
+    border: solid 1px;
+    margin-bottom: 5%;
+}
+
+label{
+    font-size: 1.2rem;
+}
+
+a{
+    color: white;
+ }
+ 
+ a:hover{
+     text-decoration: none;
+ }
+
+.topo{
+    text-align: center;
+    padding:4%;
+}
+
+.btn{
+    margin-top: 5%;
+}
+
+.imgPrev{
+    width: 300px;
+    height: 300px;
+    display:block;
+    margin-bottom: 2%;
+    margin-top: 7%;
+    margin-left: 30%;
+
+}
+
+#imgProd{
+    font-family: 'Lilita One', cursive;
+}

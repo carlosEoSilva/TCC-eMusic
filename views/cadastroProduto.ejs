@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+
+<head>
+    <meta charset="utf-8">
+
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- css -->
+    <link rel="stylesheet" href="styles/cadastroProduto.css">
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Lilita+One&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    
+    <form method="post" enctype="multipart/form-data">
+        <div style="background-color: #f9f6f7; margin: 10%;">
+            <h3>Cadastro de Produto</h3>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-6">
+            <label>Nome do artista</label>
+            <input name="artista" type="text" class="form-control" required>
+          </div>
+
+          <div class="form-group col-6">
+            <label >Nome do álbum</label>
+            <input name="album" type="text" class="form-control" required>
+          </div>
+        </div>
+
+      <div class="form-group form-row">
+          <div class="form-group col-2">
+            <label >Ano</label>
+            <input name="ano" type="text" class="form-control" required>
+          </div>
+
+          <div class="form-group col-2">
+            <label >Valor</label>
+            <input class="form-control" name="valor" type="text"/>
+          </div>
+
+          <div class="form-group col-2">
+            <label >Qtd. estoque</label>
+            <input name="estoque" type="number" min="0" class="form-control" required>
+          </div>
+
+          <div class="form-group col-3">
+            <label >Gênero</label>
+            <select name="genero" class="form-control">
+              <option selected>Selecionar...</option>
+              <option>Pop</option>
+              <option>Rock</option>
+              <option>Blues</option>
+              <option>Pagode</option>
+              <option>Punk</option>
+              <option>Reggae</option>
+            </select>
+          </div>
+
+          <div class="form-group col-3">
+            <label >Midia</label>
+            <select name="midia" class="form-control">
+              <option selected>Selecionar...</option>
+              <option>Fita K7</option>
+              <option>Vinil</option>
+              <option>CD</option>
+            </select>
+          </div>
+
+      </div>
+
+      <label>Descrição</label>
+        <textarea name="descricao" rows="20" cols="112">Informe uma descrição do álbum e o nome de suas faixas.</textarea>
+      
+      
+        <div class="container" style="text-align: center;">
+
+        <h3>Imagens do produto</h3></br>
+        
+          <img class="imgPrev" id="imgPrev1" alt="your image" width="100" height="100" src="imagem/icons/foto.png"/>
+
+          <input src="imagem/icons/foto.png" type="file" id="" name="image" accept="image/*"
+          onchange="document.getElementById('imgPrev1').src = window.URL.createObjectURL(this.files[0])"></br>
+
+          <img class="imgPrev" id="imgPrev2" alt="your image" width="100" height="100" src="imagem/icons/foto.png"/>
+
+          <input type="file" id="img" name="image" accept="image/*" onchange="document.getElementById('imgPrev2').src = window.URL.createObjectURL(this.files[0])"></br>
+
+          <img id="imgPrev3" alt="your image" class="imgPrev" src="imagem/icons/foto.png"/>
+
+          <input type="file" id="img" name="image" accept="image/*" onchange="document.getElementById('imgPrev3').src = window.URL.createObjectURL(this.files[0])"></br>
+        
+        </div>
+
+        <button type="button" class="btn btn-primary">
+          <a href="/admin">Voltar</a>
+        </button>
+
+        <button type="submit" class="btn btn-success">Salvar</button>
+    </form>
+
+    
+
+</body>

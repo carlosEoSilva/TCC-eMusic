@@ -1,0 +1,88 @@
+<head>
+    	
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	
+	<!--css-->
+	<link rel="stylesheet" href="styles/listarUsuario.css">
+
+    <title>e-Music</title>
+</head>
+
+<body>
+    <h1>Lista de usuários</h1>
+
+    <% lista.forEach(function(i){ %>
+
+      <form  action="/alterarUsuario" name="formId" method="post">
+        <div class="form-row">
+
+          <div class="col-3">
+            <input type="text" class="form-control" placeholder="nome" value="<%= i.nome %>" readonly>
+          </div>  
+
+          <div class="col">
+            <input type="text" class="form-control" placeholder="email" value="<%= i.email %>" readonly>
+          </div>
+
+          <div class="col-2">
+            <input type="text" class="form-control" placeholder="cep" value="<%= i.cep %>" readonly>
+          </div>
+
+          <div class="col-1">
+            <input type="text" class="form-control" placeholder="UF" value="<%= i.uf %>" readonly>
+          </div>
+
+          <div class="col">
+            <input type="text" class="form-control" placeholder="rua" value="<%= i.rua %>" readonly>
+          </div>
+
+        </div>
+
+        <div class="form-row">
+
+          <div class="col-1">
+            <input type="text" class="form-control" placeholder="numero" value="<%= i.numero %>" readonly>
+          </div>  
+
+          <div class="col">
+            <input type="text" class="form-control" placeholder="cidade" value="<%= i.cidade %>" readonly>
+          </div>
+
+          <div class="col">
+            <input type="text" class="form-control" placeholder="bairro" value="<%= i.bairro %>" readonly>
+          </div>
+
+          <div class="col">
+            <input type="text" class="form-control" placeholder="complemento" value="<%= i.complemento %>" readonly>
+          </div>
+
+          <div class="col">
+            <input type="text" class="form-control" placeholder="tipo end." value="<%= i.tipoEndereco %>" readonly>
+          </div>
+
+          <!-- <button type="submit" class="btn btn-warning"><a href="/cadastroUsuario">Alterar</a></button> -->
+
+          <button type="submit" class="btn btn-warning" value="<%= i._id %>" name="idUs">Alterar</button>
+
+          <button type="button" class="btn btn-danger" >Excluir</button>
+
+        </div>
+    </form>
+
+    <% }) %>
+
+    
+
+      <button type="button" class="btn btn-success"><a href="/admin">Voltar</a></button>
+</body>

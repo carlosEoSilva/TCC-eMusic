@@ -34,12 +34,15 @@
 	<div class="container-fluid topo">
 		<div class="row">
 			<div id="container-logo" class="col-lg-8">
-				<img id="logo" src="imagem/logo_02.png">
+				<img id="logo" src="imagem/logoDois.png">
 			</div>
 			
 			
 			<div id="botoesCabecalho" class="col-lg-4" >
-				<button type="submit" id="entrar" class="btn"><img class="icon"src="imagem/icons/user.png"><a href="/login">Entrar</a></button>
+				<button type="submit" id="entrar" class="btn"> 
+					<img class="icon" src="imagem/icons/user.png"> 
+					<a href="<%= link %>"> <%= botao %> </a> 
+				</button>
 				
 				<button  type="submit" id="btnMochila" class="btn"><img class="icon" src="imagem/icons/backpack.png"><a href="/mochila">Mochila de compras</a></button><br>
 				
@@ -129,21 +132,21 @@
 
 	<div class="lista">
 
-		<% for(var i= 0; i<= 14; i+= 1){ %>
-	
-		<div class="card">
-			<img class="card-img-top" src="imagem/reanimation.jpg" alt="Imagem de capa do card">
-			<div class="card-body" >
-				<img src="imagem/icons/lp.png">
-				<h6 class="card-text">Linkin Park</h6>
-				<h6>Meteora</h6>
-				<h6>R$50,00</h6>
-				<button type="button" class="btn btn-success"><img class="icon"src=""><a href="/produto">Detalhes</a></button>
-		  	</div>
-		</div>
+		<% album.forEach(function(i){ %>
+			<div class="card">
+				<img class="card-img-top" src=<%= i.img1 %> alt="Imagem de capa do card">
+				<div class="card-body" >
+					<h5 class="tipo"><%= i.tipo %></h5>
+					<h6 class="card-text"><%= i.artista %></h6>
+					<h6><%= i.album %></h6>
+					<h6><%= i.valor %></h6>
+					<button type="button" class="btn btn-success"><img class="icon"src=""><a href="/visualizarProduto/<%= i._id %>">Detalhes</a></button>
+				  </div>
+			</div>
+		<% }) %>
 
-	<% } %>
-	
+
+		
 		
 	</section>
 	

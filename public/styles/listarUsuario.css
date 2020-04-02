@@ -1,0 +1,31 @@
+body{
+    background-color: #3282b8;
+    text-align: center;
+}
+
+h1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+form{
+    border:1px solid;
+    background-color: #394a6d;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding:0;
+    border-radius: 25px;
+}
+
+
+.form-row{
+    margin:10px 5%;
+}
+
+.btn-danger{
+    margin-left: 1%;
+}
+
+.btn-warning{
+    margin-left: 1%;
+}
